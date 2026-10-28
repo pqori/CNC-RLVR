@@ -1,0 +1,14 @@
+command: python3 -u scripts/audit_checks.py
+result: ALL CHECKS PASS
+elapsed_seconds: 513.365
+benchmark_manifest_sha256: f4ded22b36c0fb90403cbd2118235f8b8e23a06b8f6d6c67436dbdc37ec2f551
+
+New hardening regressions passed:
+- zero-removal recuts cannot dilute measured load
+- partially engaged cleared prefixes cannot dilute measured load
+- tail-compressed prefixes retain exact reward_v8/v_steps identity
+- continuously unsafe geometry is not exempt from fine metrology
+- quantized helix remainder retains parent ramp semantics
+- steep ramps retain continuous reward and exact v_steps identity
+- flute overreach retains continuous reward_v8 decomposition
+- frozen teacher metrics and documents reproduce

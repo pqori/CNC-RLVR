@@ -1,0 +1,20 @@
+=== train (n=40) ===
+teacher: feasible 40/40  ok 40/40  mean_reward 0.721  mean_setups 2.40
+
+=== eval_iid (n=40) ===
+teacher: feasible 40/40  ok 40/40  mean_reward 0.736  mean_setups 1.90
+
+=== oot_multitool (n=20) ===
+teacher: feasible 0/20  ok 0/20  mean_reward 0.308  mean_setups 1.00
+  teacher failures: [(9000, 'tool_overload'), (9001, 'tool_overload'), (9002, 'tool_overload'), (9003, 'tool_overload'), (9004, 'tool_overload'), (9005, 'tool_overload'), (9006, 'tool_overload'), (9007, 'tool_overload'), (9008, 'tool_overload'), (9009, 'tool_overload'), (9010, 'tool_overload'), (9011, 'tool_overload'), (9012, 'tool_overload'), (9013, 'tool_overload'), (9014, 'tool_overload'), (9015, 'tool_overload'), (9016, 'tool_overload'), (9017, 'tool_overload'), (9018, 'tool_overload'), (9019, 'tool_overload')]
+reference: ok 20/20  mean_reward 0.750  mean_setups 1.00
+oracle16 (stepdown/stepover search, subset n=5): mean_reward 0.515  oracle feasible on 5/5
+
+=== oot_setups (n=20) ===
+teacher: feasible 20/20  ok 20/20  mean_reward 0.650  mean_setups 5.00
+reference: ok 20/20  mean_reward 0.852  mean_setups 3.00
+teacher time regret vs reference: 69%
+oracle16 (stepdown/stepover search, subset n=5): mean_reward 0.653  oracle feasible on 5/5
+teacher regret vs oracle: 1%
+
+total wall: 1339s

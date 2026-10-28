@@ -1,0 +1,10 @@
+-r requirements.txt
+
+# Declared APIs used by train/{s0_sft,s1_raft,s3_grpo,eval_policy}.py.
+# Transitive versions are captured before smoke in
+# results/training_environment.lock and must not change before the full run.
+trl==1.10.0
+vllm==0.26.0
+peft
+datasets
+accelerate

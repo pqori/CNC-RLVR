@@ -1,0 +1,30 @@
+CNC-RLVR gouge-lambda calibration
+shape: phi=min(20, gouge_depth_mm/0.1)
+gouge_depth_mm = maximum physical penetration beyond tolerance
+zero penalty through the analytic tolerance envelope
+calibration_grid_mm=0.2
+stepdowns=(0.45, 0.75, 1.05, 1.35)
+stepovers=(0.3, 0.5, 0.7, 0.9)
+overcuts_mm=(0.25, 0.35, 0.5, 0.8)
+selection: ceil_0.01(1.10 * calibration max)
+empirical_min=0.052594
+selected_lambda=0.060
+
+calibration: 24 cases, 1160 informative pairs
+  case required lambda: median=0.048350 p90=0.051178 max=0.052594
+  pair required lambda: median=0.003560 p99=0.049730 max=0.052594
+  gouge excess depth mm: min=0.200000 median=0.247214 max=0.648528
+  dominance @0.5x (0.030): 999/1160 (86.1%)
+  dominance @1x (0.060): 1160/1160 (100.0%)
+  dominance @2x (0.120): 1160/1160 (100.0%)
+
+held-out synthetic validation: 12 cases, 576 informative pairs
+  case required lambda: median=0.039105 p90=0.041736 max=0.042737
+  pair required lambda: median=0.000236 p99=0.040279 max=0.042737
+  gouge excess depth mm: min=0.247214 median=0.361177 max=0.671780
+  dominance @0.5x (0.030): 542/576 (94.1%)
+  dominance @1x (0.060): 576/576 (100.0%)
+  dominance @2x (0.120): 576/576 (100.0%)
+
+wall_seconds=497.6
+No benchmark/model outputs or model APIs were used.

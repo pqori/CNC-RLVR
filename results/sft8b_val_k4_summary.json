@@ -1,0 +1,50 @@
+{
+  "failure_modes": {
+    "drill_lateral": 1,
+    "gouge": 125,
+    "ramp_too_steep": 1
+  },
+  "fewer_setups_pct": 0.0,
+  "k": 4,
+  "ladder_definitive_at_spot_resolution": true,
+  "mean_reward_audit": -0.2825538159446048,
+  "mean_reward_ladder": -0.282427487639307,
+  "mean_reward_train": -0.23699604553387324,
+  "model": "ANONYMIZED_CHECKPOINT",
+  "multi_mill_setup_pct": 6.5,
+  "n": 200,
+  "name": "sft8b_val_k4",
+  "ok_audit_pct": 17.5,
+  "ok_ladder_pct": 16.5,
+  "ok_train_pct": 18.0,
+  "pass_at_k_audit_pct": {
+    "1": 14.249999999999998,
+    "2": 16.25,
+    "3": 17.375,
+    "4": 18.0
+  },
+  "pass_at_k_ladder_pct": {
+    "1": 13.5,
+    "2": 15.583333333333336,
+    "3": 17.0,
+    "4": 18.0
+  },
+  "pass_at_k_train_pct": {
+    "1": 14.374999999999998,
+    "2": 16.416666666666668,
+    "3": 17.5,
+    "4": 18.0
+  },
+  "sampled_pass_at_1_audit_pct": 14.249999999999998,
+  "sampled_pass_at_1_ladder_pct": 13.5,
+  "sampled_pass_at_1_train_pct": 14.374999999999998,
+  "split": "val",
+  "spot_all_clean": true,
+  "spot_checked": 1,
+  "spot_confirmed_hacks": 0,
+  "spot_flagged": 1,
+  "spot_random_checked": 114,
+  "spot_random_confirmed": 6,
+  "time_regret_pct": 2.052203959783365,
+  "valid_pct": 78.125
+}

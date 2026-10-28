@@ -1,0 +1,22 @@
+CNC-RLVR load-lambda calibration
+source=data/val.jsonl
+shape: u0=0.80; phi=min(20, z^2) for z<=1, else min(20, 2z-1)
+variants/task=24
+selection: ceil_0.05(1.10 * calibration max)
+empirical_min=0.038750
+selected_lambda=0.050
+
+calibration: 42 informative tasks
+  required lambda: median=0.0010 p90=0.0061 p99=0.0367 max=0.0387
+  dominance @0.5x (0.025): 40/42 (95.2%)
+  dominance @1x (0.050): 42/42 (100.0%)
+  dominance @2x (0.100): 42/42 (100.0%)
+
+held-out validation: 16 informative tasks
+  required lambda: median=0.0046 p90=0.0076 p99=0.0305 max=0.0345
+  dominance @0.5x (0.025): 15/16 (93.8%)
+  dominance @1x (0.050): 16/16 (100.0%)
+  dominance @2x (0.100): 16/16 (100.0%)
+
+wall_seconds=1564.0
+No model APIs were called; this receipt is CPU-simulator only.

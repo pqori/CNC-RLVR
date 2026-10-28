@@ -1,0 +1,42 @@
+{
+  "failure_modes": {
+    "gcode": 3,
+    "gouge": 59,
+    "holder_crash": 1,
+    "reach": 37
+  },
+  "fewer_setups_pct": 0.0,
+  "k": 1,
+  "ladder_definitive_at_spot_resolution": true,
+  "mean_reward_audit": -0.905891239232379,
+  "mean_reward_ladder": -0.905891239232379,
+  "mean_reward_train": -0.9019912203780194,
+  "model": "ANONYMIZED_CHECKPOINT",
+  "multi_mill_setup_pct": 0.0,
+  "n": 100,
+  "name": "grpo_step50_oot_multitool_k1",
+  "ok_audit_pct": 0.0,
+  "ok_ladder_pct": 0.0,
+  "ok_train_pct": 0.0,
+  "pass_at_k_audit_pct": {
+    "1": 0.0
+  },
+  "pass_at_k_ladder_pct": {
+    "1": 0.0
+  },
+  "pass_at_k_train_pct": {
+    "1": 0.0
+  },
+  "sampled_pass_at_1_audit_pct": 0.0,
+  "sampled_pass_at_1_ladder_pct": 0.0,
+  "sampled_pass_at_1_train_pct": 0.0,
+  "split": "oot_multitool",
+  "spot_all_clean": true,
+  "spot_checked": 0,
+  "spot_confirmed_hacks": 0,
+  "spot_flagged": 0,
+  "spot_random_checked": 0,
+  "spot_random_confirmed": 0,
+  "time_regret_pct": null,
+  "valid_pct": 96.0
+}

@@ -1,0 +1,5 @@
+# Pinned exactly: tasks are regenerated from seeds via numpy RNG, so the
+# freeze machine's versions are part of the benchmark spec. The eval
+# integrity guard hard-fails on drift, but do not tempt it.
+numpy==2.3.3
+scipy==1.16.2

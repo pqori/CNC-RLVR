@@ -1,0 +1,16 @@
+command: python3 scripts/cross_check.py
+result: 98 plan/engine comparisons; ALL EXACT
+date: 2026-08-31
+platform: macOS arm64
+python: 3.14.0
+numpy: 2.3.3
+scipy: 1.16.2
+
+Ten OOT multi-tool teacher plans and four manual side-face plans were
+skipped because the load gate marked them infeasible. The 98 applicable
+plan/engine comparisons matched exactly.
+
+sha256:
+827c950dee0feca4e4cf52bb8e36739308da1d2fe1da57ba1b83e87e7c25bc74  scripts/cross_check.py
+b5edfe664fe5ad72a39a483cd2ad4980f1d17d474ff6359fabe084f592c9b841  cnc/ref25d.py
+f5231aeec874f6d9837a37d0efd0bf6c6a3f9086b72db93b1e07545c3571d424  cnc/sim.py

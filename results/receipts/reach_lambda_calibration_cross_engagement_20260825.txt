@@ -1,0 +1,25 @@
+CNC-RLVR reach-lambda calibration
+shape: z=max(0,u-1)/0.25; phi=min(20,z^2) for z<=1, else min(20,2z-1)
+zero penalty for every u<=1; phi(1.25)=1
+stepdowns=(0.35, 0.55, 0.75, 1.05, 1.4)
+stepovers=(0.3, 0.5, 0.7, 0.9)
+selection: ceil_0.01(1.10 * calibration max)
+empirical_min=13.913818
+selected_lambda=15.310
+
+calibration: 18 cases, 270 informative pairs
+  case required lambda: median=0.202445 p90=13.089826 max=13.913818
+  pair required lambda: median=0.022719 p99=12.381242 max=13.913818
+  dominance @0.5x (7.655): 255/270 (94.4%)
+  dominance @1x (15.310): 270/270 (100.0%)
+  dominance @2x (30.620): 270/270 (100.0%)
+
+held-out synthetic validation: 27 cases, 405 informative pairs
+  case required lambda: median=0.071280 p90=1.042569 max=2.083035
+  pair required lambda: median=0.015189 p99=1.739740 max=2.083035
+  dominance @0.5x (7.655): 405/405 (100.0%)
+  dominance @1x (15.310): 405/405 (100.0%)
+  dominance @2x (30.620): 405/405 (100.0%)
+
+wall_seconds=825.5
+No benchmark/model outputs or model APIs were used.

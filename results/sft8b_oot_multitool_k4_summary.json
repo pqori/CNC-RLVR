@@ -1,0 +1,50 @@
+{
+  "failure_modes": {
+    "gouge": 58,
+    "holder_crash": 1,
+    "reach": 36
+  },
+  "fewer_setups_pct": 0.0,
+  "k": 4,
+  "ladder_definitive_at_spot_resolution": true,
+  "mean_reward_audit": -0.8961276994687378,
+  "mean_reward_ladder": -0.8961276994687378,
+  "mean_reward_train": -0.8922998201496871,
+  "model": "ANONYMIZED_CHECKPOINT",
+  "multi_mill_setup_pct": 0.0,
+  "n": 100,
+  "name": "sft8b_oot_multitool_k4",
+  "ok_audit_pct": 0.0,
+  "ok_ladder_pct": 0.0,
+  "ok_train_pct": 0.0,
+  "pass_at_k_audit_pct": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0
+  },
+  "pass_at_k_ladder_pct": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0
+  },
+  "pass_at_k_train_pct": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0
+  },
+  "sampled_pass_at_1_audit_pct": 0.0,
+  "sampled_pass_at_1_ladder_pct": 0.0,
+  "sampled_pass_at_1_train_pct": 0.0,
+  "split": "oot_multitool",
+  "spot_all_clean": true,
+  "spot_checked": 0,
+  "spot_confirmed_hacks": 0,
+  "spot_flagged": 0,
+  "spot_random_checked": 0,
+  "spot_random_confirmed": 0,
+  "time_regret_pct": null,
+  "valid_pct": 79.0
+}

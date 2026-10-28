@@ -1,0 +1,14 @@
+command: python3 scripts/audit_checks.py
+result: ALL CHECKS PASS (166/166)
+date: 2026-08-31
+platform: macOS arm64
+python: 3.14.0
+numpy: 2.3.3
+scipy: 1.16.2
+
+sha256:
+ab0005399bb4cae40c86eefcaaabe3a7789d597d29bee63409fb77c1e5e7fc2a  scripts/audit_checks.py
+f5231aeec874f6d9837a37d0efd0bf6c6a3f9086b72db93b1e07545c3571d424  cnc/sim.py
+4715e15d13bdbecf796494f59400d5ad854d386dfa682f4598e998eb2679241b  cnc/gcode.py
+8871e04762f64dd17d94b6d83633c65dcacc75b0129cdf0e9b785f1435793b7c  cnc/expand.py
+018fcc2163b1ddc4d04375b60d2e583bc17c1b0c95edd84dca8355db7100f815  data/benchmark.sha256

@@ -1,0 +1,11 @@
+train: 2000 tasks, 1999 teacher-ok, 0 no-doc, t_ref from {'teacher': 1999}, sha256 80fb71afb118... (899s elapsed)
+  docs: lines p50=153 p95=503 max=1012 | ~tokens p50=846 p95=2864 max=5936
+val: 200 tasks, 200 teacher-ok, 0 no-doc, t_ref from {'teacher': 200}, sha256 1f9855fe3185... (1096s elapsed)
+  docs: lines p50=152 p95=500 max=830 | ~tokens p50=811 p95=2859 max=4791
+eval_iid: 200 tasks, 200 teacher-ok, 0 no-doc, t_ref from {'teacher': 200}, sha256 445c6e6e7ecb... (1245s elapsed)
+  docs: lines p50=140 p95=511 max=872 | ~tokens p50=743 p95=2903 max=5064
+oot_multitool: 100 tasks, 0 teacher-ok, 0 no-doc, t_ref from {'multitool': 100}, sha256 5e9e43995c09... (1329s elapsed)
+  docs: lines p50=653 p95=782 max=917 | ~tokens p50=3751 p95=4512 max=5269
+oot_setups: 100 tasks, 100 teacher-ok, 0 no-doc, t_ref from {'teacher': 100}, sha256 c38766f510f9... (1398s elapsed)
+  docs: lines p50=452 p95=794 max=1072 | ~tokens p50=2488 p95=4641 max=6362
+FROZEN. data/benchmark.sha256 written.
